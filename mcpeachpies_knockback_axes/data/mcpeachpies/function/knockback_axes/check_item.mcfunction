@@ -38,7 +38,7 @@ execute if score @s mpp_axes_axe_level matches 0 if score @s mpp_axes_book_level
 execute if score @s mpp_axes_axe_level matches 0 if score @s mpp_axes_book_level matches 1 run scoreboard players operation @s mpp_axes_repair_level += value_1 mpp_axes_value
 
 #ENCHANT AXE
-execute if score @s mpp_axes_xp_level >= @s mpp_axes_repair_level if score @s mpp_axes_hold_axe matches 1 if score @s mpp_axes_hold_book matches 1 run function mcpeachpies_knockback_axes:check_enchant
+execute if score @s mpp_axes_xp_level >= @s mpp_axes_repair_level if score @s mpp_axes_hold_axe matches 1 if score @s mpp_axes_hold_book matches 1 run function mcpeachpies:knockback_axes/check_enchant
 
 execute if score @s mpp_axes_xp_level < @s mpp_axes_repair_level if score @s mpp_axes_hold_axe matches 1 if score @s mpp_axes_hold_book matches 1 run execute at @s run playsound block.anvil.land block @s ~ ~ ~
 execute if score @s mpp_axes_xp_level < @s mpp_axes_repair_level if score @s mpp_axes_hold_axe matches 1 if score @s mpp_axes_hold_book matches 1 run title @a actionbar ["",{"text":"Enchantment Cost: ","color":"red"},{"score":{"name":"@s","objective":"mpp_axes_repair_level"},"color":"red"}]

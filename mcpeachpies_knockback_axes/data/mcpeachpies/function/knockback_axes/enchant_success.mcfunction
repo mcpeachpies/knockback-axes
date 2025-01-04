@@ -5,7 +5,7 @@ execute at @s run playsound block.anvil.use block @a ~ ~ ~
 
 scoreboard players add @s mpp_axes_enchanted 1
 
-function mcpeachpies_knockback_axes:remove_xp_levels
+function mcpeachpies:knockback_axes/remove_xp_levels
 
 #DEBUG
 #say Axe enchanted

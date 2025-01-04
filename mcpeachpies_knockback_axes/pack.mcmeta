@@ -1,16 +1,16 @@
 {
 	"pack": {
-		"pack_format": 42,
+		"pack_format": 48,
 		"supported_formats": {
 			"min_inclusive": 18,
-			"max_inclusive": 42
+			"max_inclusive": 48
 		},
-		"description": "§9mcpeachpies Knockback Axes\n§7v1.1",
+		"description": "§9mcpeachpies Knockback Axes\n§7v1.1.1",
 		"overlays": {
 			"entries": [
 				{
-					"formats": { "min_inclusive": 42 },
-					"directory": "overlay_42"
+					"formats": { "min_inclusive": 48 },
+					"directory": "overlay_1_21"
 				}
 			]
 		}
